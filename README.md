@@ -14,7 +14,7 @@ https://github.com/panammeb/PANAM2
 nohup bash Full_script_panam_HG.sh -w <BIN_FOLDER> -x <WORKING_DIRECTORY> -y <RAW_READS_FOLDER> -z <AMPLICONS_file.txt> &> nohup.preprocessing_panam.out &
 ```
 	
-* A bried description of parameters :
+* A brief description of `Full_script_panam_HG.sh` parameters :
 
 	+ -w <BIN_FOLDER> : path to the scripts
 	+ -x <WORKING_DIRECTORY> : path to the folder where all results and intermediate file will be stored

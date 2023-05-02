@@ -13,6 +13,23 @@ https://github.com/panammeb/PANAM2
 ```
 nohup bash Full_script_panam_HG.sh -w <BIN_FOLDER> -x <WORKING_DIRECTORY> -y <RAW_READS_FOLDER> -z <AMPLICONS_file.txt> &> nohup.preprocessing_panam.out &
 ```
+	
+* A bried description of parameters :
+
+	+ -w <BIN_FOLDER> : path to the scripts
+	+ -x <WORKING_DIRECTORY> : path to the folder where all results and intermediate file will be stored
+	+ -y <RAW_READS_FOLDER> : path to the raw fastq reads
+	+ -z <AMPLICONS_file.txt> : path to the amplicons file (one "samplename\treadsfolder0name" per line)
+
+Example of a amplicons content :
+
+```
+sample	sampleOrigin
+Sample_1	demux.Location_xxx
+Sample_2	demux.Location_xxx
+Sample_3	demux.Location_xxx
+```
+
 
 * A conda env can be build using the Rpanam_env.yml (note: This environment is for preprocessing only at the moment)
 
